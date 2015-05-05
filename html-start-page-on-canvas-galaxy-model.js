@@ -29,7 +29,7 @@ APELSERG.MODEL.MakeLinks = function () {
     var links = [];
 
     var linksList = [
-        { name: "GitHub", url: "https://github.com/apelserg/" }
+        { name: "GitHub - Stencil Galaxy", url: "https://github.com/apelserg/stencil-html-start-page-on-canvas-galaxy" }
     ];
 
     for (var n = 0 in linksList) {
