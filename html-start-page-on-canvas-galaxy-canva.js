@@ -44,7 +44,7 @@ APELSERG.CANVA.Rewrite = function () {
     // контент
     else {
 
-        for (var n = 0 in APELSERG.MODEL.DATA.Content) {
+        for (var n in APELSERG.MODEL.DATA.Content) {
 
             var content = APELSERG.MODEL.DATA.Content[n];
 
@@ -55,7 +55,7 @@ APELSERG.CANVA.Rewrite = function () {
         }
     }
     // ссылки
-    for (var n = 0 in APELSERG.MODEL.DATA.Links) {
+    for (var n in APELSERG.MODEL.DATA.Links) {
 
         var link = APELSERG.MODEL.DATA.Links[n];
 
@@ -74,7 +74,7 @@ APELSERG.CANVA.Rewrite = function () {
         ctx.fillText(link.Name, link.X + 5, link.Y + link.FontHeight);
     }
     // звёзды (поверх контента)
-    for (var n = 0 in APELSERG.MODEL.DATA.Stars) {
+    for (var n in APELSERG.MODEL.DATA.Stars) {
 
         var flake = APELSERG.MODEL.DATA.Stars[n];
 

@@ -38,7 +38,7 @@ APELSERG.MODEL.MakeLinks = function () {
         { name: "NASA", url: "http://www.nasa.gov/" }
     ];
 
-    for (var n = 0 in linksList) {
+    for (var n in linksList) {
 
         var color = "white";
         var link = new APELSERG.MODEL.Link(linksList[n].url, linksList[n].name, baseX, baseY + 30 * n, linksList[n].name.length * 10 + 30, 30, color);
@@ -196,7 +196,7 @@ APELSERG.MODEL.CheckMoveFrame = function (frame) {
 //===
 APELSERG.MODEL.UpdateButtons = function () {
 
-    for (var n = 0 in APELSERG.MODEL.DATA.Links) {
+    for (var n in APELSERG.MODEL.DATA.Links) {
 
         var link = APELSERG.MODEL.DATA.Links[n];
 
@@ -227,7 +227,7 @@ APELSERG.MODEL.UpdateButtons = function () {
 //===
 APELSERG.MODEL.UpdateStars = function () {
 
-    for (var n = 0 in APELSERG.MODEL.DATA.Stars) {
+    for (var n in APELSERG.MODEL.DATA.Stars) {
 
         var flake = APELSERG.MODEL.DATA.Stars[n];
 
